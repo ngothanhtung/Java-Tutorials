@@ -233,4 +233,63 @@ public class Customer {
             System.exit(0);
         }
     }
+    
+    public void display() {
+         System.out.format("%-20s | %-20s | %-20s | %-12s | %-30s | %-20s | %-20s | %s", "Id", "FirstName", "LastName", "PhoneNumber", "Email", "Address", "Birthday", "Gender");
+        System.out.println();
+        System.out.println("----------------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.format("%-20s | %-20s | %-20s | %-12s | %-30s | %-20s | %-20s | %s",
+            this._id,
+            this._firtsName,
+            this._lastName,
+            this._phoneNumber,
+            this._email,
+            this._address,
+            this._birthday,
+            this._gender);
+        System.out.println();
+    }
+    
+    public static Customer findById(String id) {
+        try {
+            // Load the SQLServerDriver class, build the 
+            // connection string, and get a connection 
+
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            String connectionUrl = "jdbc:sqlserver://198.71.226.6;database=aptech_onlineshop;user=aptech;password=123456789";
+
+            // Create and execute an SQL statement that returns some data.
+            try (Connection con = DriverManager.getConnection(connectionUrl)) {
+                // Create and execute an SQL statement that returns some data.
+                String SQL = "SELECT TOP 1 * FROM Customers WHERE Id = ?";
+                PreparedStatement stmt = con.prepareStatement(SQL);
+                stmt.setString(1, id);
+                
+                // Iterate through the data in the result set and display it.
+                try (ResultSet rs = stmt.executeQuery()) {
+                    if (rs.next()) {
+                        Customer c = new Customer();
+                        c._id = rs.getString("Id");
+                        c._firtsName = rs.getString("FirstName");
+                        c._lastName = rs.getString("LastName");
+                        c._phoneNumber = rs.getString("PhoneNumber");
+                        c._email = rs.getString("Email");
+                        c._address = rs.getString("Address");
+                        c._birthday = rs.getString("Birthday");
+                        c._gender = rs.getString("Gender");
+                    
+                        return c;
+                    }
+                    else {
+                        return null;
+                    }
+                }
+            }
+
+        } catch (ClassNotFoundException | SQLException e) {
+            System.out.println("Error Trace: " + e.getMessage());
+            System.exit(0);
+        }
+        return null;
+    }
 }

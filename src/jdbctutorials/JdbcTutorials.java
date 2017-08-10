@@ -21,18 +21,14 @@ public class JdbcTutorials {
     public static void main(String[] args) throws SQLException {
         // TODO code application logic here
         
-        Customer c = new Customer();
-        c.setId("tungnt");
-        c.setFirtsName("Ngo");
-        c.setLastName("Tung");
-        c.setPhoneNumber("0905157803");
-        c.setEmail("tungnt@softech.vn");
-        c.setAddress("Danang");
-        c.setBirthday("1908-04-10");
-        c.setGender("MAN");
-        c.insert();
-        
-        Customer.displayAll();
+        Customer c = Customer.findById("tomhank");
+        if (c != null) { 
+            c.display();
+        }
+        else {
+            System.out.println("Not found");
+        }
+        //Customer.displayAll();
     }
     
 }
