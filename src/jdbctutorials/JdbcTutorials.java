@@ -24,6 +24,10 @@ public class JdbcTutorials {
         Customer c = Customer.findById("tomhank");
         if (c != null) { 
             c.display();
+            c.setPhoneNumber("090654321");
+            
+            c.update();
+            c.display();
         }
         else {
             System.out.println("Not found");

@@ -171,7 +171,7 @@ public class Customer {
         }
     }
 
-    public static void delete(String id) {
+    public void update() {
         try {
             // Load the SQLServerDriver class, build the 
             // connection string, and get a connection 
@@ -182,9 +182,16 @@ public class Customer {
             // Create and execute an SQL statement that returns some data.
             try (Connection con = DriverManager.getConnection(connectionUrl)) {
                 // Create and execute an SQL statement that returns some data.
-                String SQL = "DELETE FROM Customers WHERE Id = ?";
+                String SQL = "UPDATE Customers SET FirstName = ?, LastName = ?, PhoneNumber = ?, Email = ?, Address = ?, Birthday = ?, Gender = ? WHERE Id = ?";
                 PreparedStatement stmt = con.prepareStatement(SQL);
-                stmt.setString(1, id);
+                stmt.setString(1, this._firtsName);
+                stmt.setString(2, this._lastName);
+                stmt.setString(3, this._phoneNumber);
+                stmt.setString(4, this._address);
+                stmt.setString(5, this._email);
+                stmt.setString(6, this._birthday);
+                stmt.setString(7, this._gender);
+                stmt.setString(8, this._id);
                 int executeUpdate = stmt.executeUpdate();
                 System.out.println("Success Trace: " + executeUpdate);
             }
