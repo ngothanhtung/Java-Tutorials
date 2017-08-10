@@ -11,6 +11,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -202,6 +204,46 @@ public class Customer {
         }
     }
 
+    public static List<Customer> getAll() {
+        List<Customer> list = new ArrayList<>();
+        try {
+            // Load the SQLServerDriver class, build the 
+            // connection string, and get a connection 
+
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            String connectionUrl = "jdbc:sqlserver://198.71.226.6;database=aptech_onlineshop;user=aptech;password=123456789";
+
+            // Create and execute an SQL statement that returns some data.
+            try (Connection con = DriverManager.getConnection(connectionUrl)) {
+                // Create and execute an SQL statement that returns some data.
+                String SQL = "SELECT * FROM Customers";
+                Statement stmt = con.createStatement();
+                // Iterate through the data in the result set and display it.
+                try (ResultSet rs = stmt.executeQuery(SQL)) {
+                    // Iterate through the data in the result set and display it.
+                    while (rs.next()) {
+                        Customer c = new Customer();
+                        c._id = rs.getString("Id");
+                        c._firtsName = rs.getString("FirstName");
+                        c._lastName = rs.getString("LastName");
+                        c._phoneNumber = rs.getString("PhoneNumber");
+                        c._email = rs.getString("Email");
+                        c._address = rs.getString("Address");
+                        c._birthday = rs.getString("Birthday");
+                        c._gender = rs.getString("Gender");
+                        list.add(c);
+                    }
+                    return list;
+                }
+            }
+
+        } catch (ClassNotFoundException | SQLException e) {
+            System.out.println("Error Trace: " + e.getMessage());
+            System.exit(0);
+        }
+        return list;
+    }
+    
     public static void displayAll() {
         try {
             // Load the SQLServerDriver class, build the 

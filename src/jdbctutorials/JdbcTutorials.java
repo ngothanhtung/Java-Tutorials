@@ -6,6 +6,7 @@
 package jdbctutorials;
 
 import java.sql.*;
+import java.util.List;
 
 
 /**
@@ -28,11 +29,17 @@ public class JdbcTutorials {
             
             c.update();
             c.display();
+            
         }
         else {
             System.out.println("Not found");
         }
         //Customer.displayAll();
+        
+        List<Customer> customers = Customer.getAll();
+        customers.forEach((customer) -> {
+            customer.display();
+        });
     }
     
 }
