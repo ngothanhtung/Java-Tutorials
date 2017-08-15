@@ -21,25 +21,27 @@ public class JdbcTutorials {
      */
     public static void main(String[] args) throws SQLException {
         // TODO code application logic here
-        
-        Customer c = Customer.findById("tomhank");
+
+        Customer c = CustomerRepository.findById("tomhank");
         if (c != null) { 
-            c.display();
             c.setPhoneNumber("090654321");
-            
-            c.update();
+            CustomerRepository.updateCustomer(c);
             c.display();
-            
         }
         else {
             System.out.println("Not found");
         }
-        //Customer.displayAll();
-        
-        List<Customer> customers = Customer.getAll();
+
+        CustomerRepository.displayAll();
+
+        /*
+        List<Customer> customers = CustomerRepository.getCustomers();
         customers.forEach((customer) -> {
-            customer.display();
+            if (customer != null) {
+                customer.display();
+            }
         });
+        */
     }
     
 }
