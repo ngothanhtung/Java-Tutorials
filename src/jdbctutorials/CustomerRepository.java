@@ -8,15 +8,11 @@ public class CustomerRepository {
 
     public static Customer findById(String id) throws SQLException {
         try {
-            // Load the SQLServerDriver class, build the
-            // connection string, and get a connection
-
+            // Load the SQLServerDriver class, build the connection string, and get a connection
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String connectionUrl = Global.ConnectionString;
-
-            // Create and execute an SQL statement that returns some data.
+            
             try (Connection con = DriverManager.getConnection(connectionUrl)) {
-                // Create and execute an SQL statement that returns some data.
                 String SQL = "SELECT TOP 1 * FROM Customers WHERE Id = ?";
                 PreparedStatement stmt = con.prepareStatement(SQL);
                 stmt.setString(1, id);
@@ -49,20 +45,15 @@ public class CustomerRepository {
     public static List<Customer> getCustomers() {
         List<Customer> list = new ArrayList<>();
         try {
-            // Load the SQLServerDriver class, build the
-            // connection string, and get a connection
-
+            // Load the SQLServerDriver class, build the connection string, and get a connection
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String connectionUrl = Global.ConnectionString;
 
-            // Create and execute an SQL statement that returns some data.
             try (Connection con = DriverManager.getConnection(connectionUrl)) {
-                // Create and execute an SQL statement that returns some data.
                 String SQL = "SELECT * FROM Customers";
                 Statement stmt = con.createStatement();
                 // Iterate through the data in the result set and display it.
                 try (ResultSet rs = stmt.executeQuery(SQL)) {
-                    // Iterate through the data in the result set and display it.
                     while (rs.next()) {
                         Customer c = new Customer();
                         c.setId(rs.getString("Id"));
@@ -87,15 +78,10 @@ public class CustomerRepository {
 
     public static void updateCustomer(Customer customer) throws SQLException {
         try {
-            // Load the SQLServerDriver class, build the
-            // connection string, and get a connection
-
+            // Load the SQLServerDriver class, build the connection string, and get a connection
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String connectionUrl = Global.ConnectionString;
-
-            // Create and execute an SQL statement that returns some data.
             try (Connection con = DriverManager.getConnection(connectionUrl)) {
-                // Create and execute an SQL statement that returns some data.
                 String SQL = "UPDATE Customers SET FirstName = ?, LastName = ?, PhoneNumber = ?, Email = ?, Address = ?, Birthday = ?, Gender = ? WHERE Id = ?";
                 PreparedStatement stmt = con.prepareStatement(SQL);
                 stmt.setString(1, customer.getFirstName());
@@ -117,15 +103,10 @@ public class CustomerRepository {
 
     public static void addCustomer(Customer customer) throws SQLException {
         try {
-            // Load the SQLServerDriver class, build the
-            // connection string, and get a connection
-
+            // Load the SQLServerDriver class, build the connection string, and get a connection
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String connectionUrl = Global.ConnectionString;
-
-            // Create and execute an SQL statement that returns some data.
             try (Connection con = DriverManager.getConnection(connectionUrl)) {
-                // Create and execute an SQL statement that returns some data.
                 String SQL = "INSERT INTO Customers (Id, FirstName, LastName, PhoneNumber, Address, Email, Birthday, Gender) VALUES(?, ?, ?, ?, ?, ?, ?, ?)";
                 PreparedStatement stmt = con.prepareStatement(SQL);
 
@@ -149,15 +130,10 @@ public class CustomerRepository {
 
     public static void deleteCustomer(String id) throws SQLException {
         try {
-            // Load the SQLServerDriver class, build the
-            // connection string, and get a connection
-
+            // Load the SQLServerDriver class, build the connection string, and get a connection
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String connectionUrl = Global.ConnectionString;
-
-            // Create and execute an SQL statement that returns some data.
             try (Connection con = DriverManager.getConnection(connectionUrl)) {
-                // Create and execute an SQL statement that returns some data.
                 String SQL = "DELETE FROM Customers WHERE Id = ?";
                 PreparedStatement stmt = con.prepareStatement(SQL);
                 stmt.setString(1, id);
@@ -173,20 +149,13 @@ public class CustomerRepository {
 
     public static void displayAll() {
         try {
-            // Load the SQLServerDriver class, build the
-            // connection string, and get a connection
-
+            // Load the SQLServerDriver class, build the connection string, and get a connection
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String connectionUrl = Global.ConnectionString;
-
-            // Create and execute an SQL statement that returns some data.
             try (Connection con = DriverManager.getConnection(connectionUrl)) {
-                // Create and execute an SQL statement that returns some data.
                 String SQL = "SELECT * FROM Customers";
                 Statement stmt = con.createStatement();
-                // Iterate through the data in the result set and display it.
                 try (ResultSet rs = stmt.executeQuery(SQL)) {
-                    // Iterate through the data in the result set and display it.
                     System.out.println("CUSTOMER LIST:");
                     System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
                     System.out.format("%-20s | %-20s | %-20s | %-12s | %-30s | %-30s | %-20s | %s", "Id", "FirstName", "LastName", "PhoneNumber", "Email", "Address", "Birthday", "Gender");
