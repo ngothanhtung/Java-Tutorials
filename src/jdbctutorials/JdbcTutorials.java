@@ -22,6 +22,10 @@ public class JdbcTutorials {
     public static void main(String[] args) throws SQLException {
         // TODO code application logic here
 
+        CustomerFrame f = new CustomerFrame();
+        f.setVisible(true);
+        
+        /*
         Customer c = CustomerRepository.findById("tomhank");
         if (c != null) { 
             c.setPhoneNumber("090654321");
@@ -34,7 +38,7 @@ public class JdbcTutorials {
 
         CustomerRepository.displayAll();
 
-        /*
+        
         List<Customer> customers = CustomerRepository.getCustomers();
         customers.forEach((customer) -> {
             if (customer != null) {
@@ -43,5 +47,4 @@ public class JdbcTutorials {
         });
         */
     }
-    
 }

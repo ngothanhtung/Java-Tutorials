@@ -103,7 +103,7 @@ public class CustomerRepository {
                 stmt.setString(3, customer.getPhoneNumber());
                 stmt.setString(4, customer.getAddress());
                 stmt.setString(5, customer.getEmail());
-                stmt.setDate(6, Date.valueOf(customer.getBirthday().toString()));
+                stmt.setDate(6, new java.sql.Date(customer.getBirthday().getDate()));
                 stmt.setString(7, customer.getGender());
                 stmt.setString(8, customer.getId());
                 int executeUpdate = stmt.executeUpdate();
@@ -135,7 +135,7 @@ public class CustomerRepository {
                 stmt.setString(4, customer.getPhoneNumber());
                 stmt.setString(5, customer.getAddress());
                 stmt.setString(6, customer.getEmail());
-                stmt.setDate(7, Date.valueOf(customer.getBirthday().toString()));
+                stmt.setDate(7, new java.sql.Date(customer.getBirthday().getDate()));
                 stmt.setString(8, customer.getGender());
 
                 int executeUpdate = stmt.executeUpdate();
