@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19f36a6a-355e-4bc7-8c3d-50644b3d075e" name="Default" comment="" />
+    <list default="true" id="19f36a6a-355e-4bc7-8c3d-50644b3d075e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="JdbcTutorials.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jdbctutorials/JdbcTutorials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="648">
+              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
-                <element signature="e#0#1092#0" expanded="true" />
+                <element signature="e#0#1180#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -28,20 +30,12 @@
       <file leaf-file-name="CustomerRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jdbctutorials/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="189" column="20" lean-forward="false" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="57" />
+            <state relative-caret-position="1944">
+              <caret line="158" column="20" lean-forward="false" selection-start-line="158" selection-start-column="20" selection-end-line="158" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getCustomers#0;class#CustomerRepository#0" expanded="false" />
-                <element signature="method#updateCustomer#0;class#CustomerRepository#0" expanded="false" />
-                <element signature="method#addCustomer#0;class#CustomerRepository#0" expanded="false" />
-                <element signature="method#deleteCustomer#0;class#CustomerRepository#0" expanded="false" />
-                <marker date="1502769338813" expanded="true" signature="726:768" ph="SELECT TOP 1... Customers" />
-                <marker date="1502769338813" expanded="true" signature="2553:2576" ph="SELECT * FRO... Customers" />
-                <marker date="1502769338813" expanded="true" signature="4347:4475" ph="UPDATE Custo... " />
-                <marker date="1502769338813" expanded="true" signature="5923:6048" ph="INSERT INTO Customers... " />
-                <marker date="1502769338813" expanded="true" signature="7493:7527" ph="DELETE FROM " />
-                <marker date="1502769338813" expanded="true" signature="8490:8513" ph="SELECT * FRO... Customers" />
+                <marker date="1503137830978" expanded="true" signature="225:269" ph="//..." />
+                <marker date="1503137830978" expanded="true" signature="7547:9375" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,7 +46,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
               <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-              <folding />
+              <folding>
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +87,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -105,6 +108,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,10 +136,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,6 +283,7 @@
       <option name="presentableId" value="Default" />
       <updated>1502765964450</updated>
       <workItem from="1502765965810" duration="4022000" />
+      <workItem from="1510276053880" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="ADD">
       <created>1502769975714</created>
@@ -292,38 +296,38 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4022000" />
+    <option name="totallyTimeSpent" value="4046000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="0" />
+    <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23561013" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18604651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +350,157 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
     <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <targetFilters>
+        <filter targetName="default" isVisible="true" />
+        <filter targetName="-pre-init" isVisible="false" />
+        <filter targetName="-init-private" isVisible="false" />
+        <filter targetName="-init-user" isVisible="false" />
+        <filter targetName="-init-project" isVisible="false" />
+        <filter targetName="-do-init" isVisible="false" />
+        <filter targetName="-post-init" isVisible="false" />
+        <filter targetName="-init-check" isVisible="false" />
+        <filter targetName="-init-macrodef-property" isVisible="false" />
+        <filter targetName="-init-macrodef-javac-with-processors" isVisible="false" />
+        <filter targetName="-init-macrodef-javac-without-processors" isVisible="false" />
+        <filter targetName="-init-macrodef-javac" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-init" isVisible="false" />
+        <filter targetName="-init-test-properties" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-single" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-batch" isVisible="false" />
+        <filter targetName="-init-macrodef-junit" isVisible="false" />
+        <filter targetName="-init-macrodef-testng" isVisible="false" />
+        <filter targetName="-init-macrodef-test-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-testng-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-test" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-debug" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-debug-batch" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-debug-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-testng-debug" isVisible="false" />
+        <filter targetName="-init-macrodef-testng-debug-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-test-debug-junit" isVisible="false" />
+        <filter targetName="-init-macrodef-test-debug-testng" isVisible="false" />
+        <filter targetName="-init-macrodef-test-debug" isVisible="false" />
+        <filter targetName="profile-init" isVisible="false" />
+        <filter targetName="-profile-pre-init" isVisible="false" />
+        <filter targetName="-profile-post-init" isVisible="false" />
+        <filter targetName="-profile-init-macrodef-profile" isVisible="false" />
+        <filter targetName="-profile-init-check" isVisible="false" />
+        <filter targetName="-init-macrodef-nbjpda" isVisible="false" />
+        <filter targetName="-init-debug-args" isVisible="false" />
+        <filter targetName="-init-macrodef-debug" isVisible="false" />
+        <filter targetName="-init-macrodef-java" isVisible="false" />
+        <filter targetName="-init-macrodef-copylibs" isVisible="false" />
+        <filter targetName="-init-presetdef-jar" isVisible="false" />
+        <filter targetName="-init-ap-cmdline-properties" isVisible="false" />
+        <filter targetName="-init-ap-cmdline-supported" isVisible="false" />
+        <filter targetName="-init-ap-cmdline" isVisible="false" />
+        <filter targetName="init" isVisible="false" />
+        <filter targetName="-deps-jar-init" isVisible="false" />
+        <filter targetName="-warn-already-built-jar" isVisible="false" />
+        <filter targetName="deps-jar" isVisible="false" />
+        <filter targetName="-verify-automatic-build" isVisible="false" />
+        <filter targetName="-check-automatic-build" isVisible="false" />
+        <filter targetName="-clean-after-automatic-build" isVisible="false" />
+        <filter targetName="-pre-pre-compile" isVisible="false" />
+        <filter targetName="-pre-compile" isVisible="false" />
+        <filter targetName="-compile-depend" isVisible="false" />
+        <filter targetName="-do-compile" isVisible="false" />
+        <filter targetName="-copy-persistence-xml" isVisible="false" />
+        <filter targetName="-post-compile" isVisible="false" />
+        <filter targetName="compile" isVisible="true" />
+        <filter targetName="-pre-compile-single" isVisible="false" />
+        <filter targetName="-do-compile-single" isVisible="false" />
+        <filter targetName="-post-compile-single" isVisible="false" />
+        <filter targetName="compile-single" isVisible="false" />
+        <filter targetName="-pre-pre-jar" isVisible="false" />
+        <filter targetName="-pre-jar" isVisible="false" />
+        <filter targetName="-do-jar-create-manifest" isVisible="false" />
+        <filter targetName="-do-jar-copy-manifest" isVisible="false" />
+        <filter targetName="-do-jar-set-mainclass" isVisible="false" />
+        <filter targetName="-do-jar-set-profile" isVisible="false" />
+        <filter targetName="-do-jar-set-splashscreen" isVisible="false" />
+        <filter targetName="-do-jar-copylibs" isVisible="false" />
+        <filter targetName="-do-jar-jar" isVisible="false" />
+        <filter targetName="-do-jar-delete-manifest" isVisible="false" />
+        <filter targetName="-do-jar-without-libraries" isVisible="false" />
+        <filter targetName="-do-jar-with-libraries" isVisible="false" />
+        <filter targetName="-post-jar" isVisible="false" />
+        <filter targetName="-do-jar" isVisible="false" />
+        <filter targetName="jar" isVisible="true" />
+        <filter targetName="run" isVisible="true" />
+        <filter targetName="-do-not-recompile" isVisible="false" />
+        <filter targetName="run-single" isVisible="false" />
+        <filter targetName="run-test-with-main" isVisible="false" />
+        <filter targetName="-debug-start-debugger" isVisible="false" />
+        <filter targetName="-debug-start-debugger-main-test" isVisible="false" />
+        <filter targetName="-debug-start-debuggee" isVisible="false" />
+        <filter targetName="debug" isVisible="true" />
+        <filter targetName="-debug-start-debugger-stepinto" isVisible="false" />
+        <filter targetName="debug-stepinto" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-single" isVisible="false" />
+        <filter targetName="debug-single" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-main-test" isVisible="false" />
+        <filter targetName="debug-test-with-main" isVisible="false" />
+        <filter targetName="-pre-debug-fix" isVisible="false" />
+        <filter targetName="-do-debug-fix" isVisible="false" />
+        <filter targetName="debug-fix" isVisible="false" />
+        <filter targetName="-profile-pre72" isVisible="true" />
+        <filter targetName="-profile-single-pre72" isVisible="true" />
+        <filter targetName="-profile-applet-pre72" isVisible="false" />
+        <filter targetName="-profile-test-single-pre72" isVisible="false" />
+        <filter targetName="-profile-check" isVisible="false" />
+        <filter targetName="profile" isVisible="true" />
+        <filter targetName="profile-single" isVisible="true" />
+        <filter targetName="profile-test-single" isVisible="true" />
+        <filter targetName="profile-test" isVisible="true" />
+        <filter targetName="profile-test-with-main" isVisible="true" />
+        <filter targetName="profile-applet" isVisible="false" />
+        <filter targetName="-javadoc-build" isVisible="false" />
+        <filter targetName="-javadoc-browse" isVisible="false" />
+        <filter targetName="javadoc" isVisible="true" />
+        <filter targetName="-pre-pre-compile-test" isVisible="false" />
+        <filter targetName="-pre-compile-test" isVisible="false" />
+        <filter targetName="-compile-test-depend" isVisible="false" />
+        <filter targetName="-do-compile-test" isVisible="false" />
+        <filter targetName="-post-compile-test" isVisible="false" />
+        <filter targetName="compile-test" isVisible="false" />
+        <filter targetName="-pre-compile-test-single" isVisible="false" />
+        <filter targetName="-do-compile-test-single" isVisible="false" />
+        <filter targetName="-post-compile-test-single" isVisible="false" />
+        <filter targetName="compile-test-single" isVisible="false" />
+        <filter targetName="-pre-test-run" isVisible="false" />
+        <filter targetName="-do-test-run" isVisible="false" />
+        <filter targetName="-post-test-run" isVisible="false" />
+        <filter targetName="test-report" isVisible="false" />
+        <filter targetName="-test-browse" isVisible="false" />
+        <filter targetName="test" isVisible="true" />
+        <filter targetName="-pre-test-run-single" isVisible="false" />
+        <filter targetName="-do-test-run-single" isVisible="false" />
+        <filter targetName="-post-test-run-single" isVisible="false" />
+        <filter targetName="test-single" isVisible="true" />
+        <filter targetName="-do-test-run-single-method" isVisible="false" />
+        <filter targetName="-post-test-run-single-method" isVisible="false" />
+        <filter targetName="test-single-method" isVisible="true" />
+        <filter targetName="-debug-start-debuggee-test" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-test-method" isVisible="false" />
+        <filter targetName="-debug-start-debugger-test" isVisible="false" />
+        <filter targetName="debug-test" isVisible="false" />
+        <filter targetName="debug-test-method" isVisible="false" />
+        <filter targetName="-do-debug-fix-test" isVisible="false" />
+        <filter targetName="debug-fix-test" isVisible="false" />
+        <filter targetName="run-applet" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-applet" isVisible="false" />
+        <filter targetName="debug-applet" isVisible="false" />
+        <filter targetName="-deps-clean-init" isVisible="false" />
+        <filter targetName="-warn-already-built-clean" isVisible="false" />
+        <filter targetName="deps-clean" isVisible="false" />
+        <filter targetName="-do-clean" isVisible="false" />
+        <filter targetName="-post-clean" isVisible="false" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="-check-call-dep" isVisible="false" />
+        <filter targetName="-maybe-call-dep" isVisible="false" />
+      </targetFilters>
       <expanded value="false" />
     </buildFile>
   </component>
@@ -354,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -378,24 +532,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/function/Consumer.java" />
     <entry file="file://$PROJECT_DIR$/src/jdbctutorials/JdbcTutorials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="648">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
-            <element signature="e#0#1092#0" expanded="true" />
+            <element signature="e#0#1180#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -403,20 +549,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jdbctutorials/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="189" column="20" lean-forward="false" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="57" />
+        <state relative-caret-position="1944">
+          <caret line="158" column="20" lean-forward="false" selection-start-line="158" selection-start-column="20" selection-end-line="158" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getCustomers#0;class#CustomerRepository#0" expanded="false" />
-            <element signature="method#updateCustomer#0;class#CustomerRepository#0" expanded="false" />
-            <element signature="method#addCustomer#0;class#CustomerRepository#0" expanded="false" />
-            <element signature="method#deleteCustomer#0;class#CustomerRepository#0" expanded="false" />
-            <marker date="1502769338813" expanded="true" signature="726:768" ph="SELECT TOP 1... Customers" />
-            <marker date="1502769338813" expanded="true" signature="2553:2576" ph="SELECT * FRO... Customers" />
-            <marker date="1502769338813" expanded="true" signature="4347:4475" ph="UPDATE Custo... " />
-            <marker date="1502769338813" expanded="true" signature="5923:6048" ph="INSERT INTO Customers... " />
-            <marker date="1502769338813" expanded="true" signature="7493:7527" ph="DELETE FROM " />
-            <marker date="1502769338813" expanded="true" signature="8490:8513" ph="SELECT * FRO... Customers" />
+            <marker date="1503137830978" expanded="true" signature="225:269" ph="//..." />
+            <marker date="1503137830978" expanded="true" signature="7547:9375" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -425,7 +563,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
