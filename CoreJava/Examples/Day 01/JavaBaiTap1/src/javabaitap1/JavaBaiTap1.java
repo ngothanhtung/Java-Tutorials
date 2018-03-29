@@ -10,12 +10,6 @@ package javabaitap1;
  * @author softech
  */
 public class JavaBaiTap1 {
-    enum Mua {
-        Xuan, Ha, Thu, Dong
-    }
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         
         System.out.println("HELLO WORLD");
