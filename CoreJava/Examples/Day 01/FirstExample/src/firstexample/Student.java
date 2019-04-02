@@ -1,4 +1,4 @@
-package firstsample;
+package firstexample;
 
 class Student {
   public String Name;
