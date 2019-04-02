@@ -3,29 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package baitap7inheritance;
+package firstsample;
 
 /**
  *
  * @author softech
  */
-public class BaiTap7Inheritance {
-
+public class Main {
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Student s = new Student();
-        s.Name = "John";
-        s.Age = 20;
-        s.Mark = 9;
-        s.display();
+        // COMMENT HERE
+        int i = 10;
+        int j = 20;
 
-        Teacher t = new Teacher();
-        t.Name = "Peter";
-        t.Age = 40;
-        t.Skill = "JAVA";
-        t.display();
+        int x = i + j;
+
+        System.out.println("HELLO JAVA");
+        System.out.println("X value: " + x);
     }
 
 }
