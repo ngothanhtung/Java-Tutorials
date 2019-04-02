@@ -17,33 +17,23 @@ public class BaiTap2 {
     public static void main(String[] args) {
         // TODO code application logic here
         /*
-        for(int i = 0; i <= 100; i++) {
-            if (i % 5 == 0) {
-                System.out.println(i);
-            }
-            
-            if (i % 3 == 0) {
-                System.out.println(i);
-            }
-        }
-        */
-        
-        
-        
-       
-        for(int i = 0; i <= 100; i++) {
+         * for(int i = 0; i <= 100; i++) { if (i % 5 == 0) { System.out.println(i); }
+         * 
+         * if (i % 3 == 0) { System.out.println(i); } }
+         */
+
+        for (int i = 0; i <= 100; i++) {
             MyNumber n = new MyNumber();
             n.Value = i;
             n.KiemTra3();
             n.KiemTra5();
         }
-        
-        
-        for(int i = 1000; i <= 2000; i++) {
+
+        for (int i = 1000; i <= 2000; i++) {
             SoNguyenTo n = new SoNguyenTo();
             n.Value = i;
             n.KiemTra();
         }
     }
-    
+
 }

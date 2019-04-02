@@ -13,12 +13,12 @@ public class NhanVat {
     public String Ten;
     public int Mau;
     public int Luc;
-    
+
     public void HienThi() {
         System.out.println("Ten: " + Ten);
         System.out.println("Mau: " + Mau);
         System.out.println("Luc: " + Luc);
-        
+
         System.out.println("===================");
     }
 }
