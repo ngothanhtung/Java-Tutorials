@@ -1,0 +1,6 @@
+Ngon ngu JAVA thuoc so huu cua tap doan nao hien nau?
+Apple
+IBM
+Oracle
+Microsoft
+C
